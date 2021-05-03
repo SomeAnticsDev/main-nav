@@ -4,10 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
   </head>
   <body>
-    Hello, world.
+    <nav aria-label="Repository" id="repository-nav">
+      <ul aria-labelledby="repository-nav">
+        <li><a aria-current="page" href="/project/name/code">Code</a></li>
+        <li>
+          <a href="/project/name/issues">
+            <span>Issues</span>
+            <span>13</span>
+            <span class="visually-hidden">new </span>
+          </a>
+        </li>
+        <li>
+          <a href="/project/name/pulls">
+            <span>Pull Requests</span>
+            <span>2</span>
+            <span class="visually-hidden">new </span>
+          </a>
+        </li>
+        <li><a href="/project/name/discussions">Discussions</a></li>
+        <li><a href="/project/name/actions">Actions</a></li>
+        <li><a href="/project/name/wiki">Wiki</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
