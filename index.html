@@ -8,26 +8,34 @@
     <title>Document</title>
   </head>
   <body>
-    <nav aria-label="Repository" id="repository-nav">
-      <ul aria-labelledby="repository-nav">
-        <li><a aria-current="page" href="/project/name/code">Code</a></li>
+    <nav aria-label="Repository" id="repository-nav" data-repo-nav>
+      <ul aria-labelledby="repository-nav" data-repo-nav--list>
         <li>
-          <a href="/project/name/issues">
+          <a aria-current="page" href="/project/name/code" data-repo-nav--link
+            >Code</a
+          >
+        </li>
+        <li>
+          <a href="/project/name/issues" data-repo-nav--link>
             <span>Issues</span>
-            <span>13</span>
-            <span class="visually-hidden">new </span>
+            <span data-repo-nav--link-augmenter>13</span>
+            <span data-visually-hidden>new </span>
           </a>
         </li>
         <li>
-          <a href="/project/name/pulls">
+          <a href="/project/name/pulls" data-repo-nav--link>
             <span>Pull Requests</span>
-            <span>2</span>
-            <span class="visually-hidden">new </span>
+            <span data-repo-nav--link-augmenter>2</span>
+            <span data-visually-hidden>new </span>
           </a>
         </li>
-        <li><a href="/project/name/discussions">Discussions</a></li>
-        <li><a href="/project/name/actions">Actions</a></li>
-        <li><a href="/project/name/wiki">Wiki</a></li>
+        <li>
+          <a href="/project/name/discussions" data-repo-nav--link
+            >Discussions</a
+          >
+        </li>
+        <li><a href="/project/name/actions" data-repo-nav--link>Actions</a></li>
+        <li><a href="/project/name/wiki" data-repo-nav--link>Wiki</a></li>
       </ul>
     </nav>
   </body>
