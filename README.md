@@ -1,4 +1,4 @@
-# project-navigation
+# main-nav
 
 A clone of GitHub's project navigation to illustrate accessible main nav patterns.
 
