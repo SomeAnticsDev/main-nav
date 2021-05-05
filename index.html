@@ -11,12 +11,18 @@
     <nav aria-label="Repository" id="repository-nav" data-repo-nav>
       <ul aria-labelledby="repository-nav" data-repo-nav--list>
         <li>
-          <a aria-current="page" href="/project/name/code" data-repo-nav--link
-            >Code</a
-          >
+          <a aria-current="page" href="/project/name/code" data-repo-nav--link>
+            <svg data-square-icon aria-hidden="true">
+              <use xlink:href="./octicons.svg#code"></use>
+            </svg>
+            <span>Code</span>
+          </a>
         </li>
         <li>
           <a href="/project/name/issues" data-repo-nav--link>
+            <svg data-square-icon aria-hidden="true">
+              <use xlink:href="./octicons.svg#issue-opened"></use>
+            </svg>
             <span>Issues</span>
             <span data-repo-nav--link-augmenter>13</span>
             <span data-visually-hidden>new </span>
@@ -24,18 +30,46 @@
         </li>
         <li>
           <a href="/project/name/pulls" data-repo-nav--link>
+            <svg data-square-icon aria-hidden="true">
+              <use xlink:href="./octicons.svg#git-pull-request"></use>
+            </svg>
             <span>Pull Requests</span>
             <span data-repo-nav--link-augmenter>2</span>
             <span data-visually-hidden>new </span>
           </a>
         </li>
         <li>
-          <a href="/project/name/discussions" data-repo-nav--link
-            >Discussions</a
-          >
+          <a href="/project/name/discussions" data-repo-nav--link>
+            <svg data-square-icon aria-hidden="true">
+              <use xlink:href="./octicons.svg#comment-discussion"></use>
+            </svg>
+            <span>Discussions</span>
+          </a>
         </li>
-        <li><a href="/project/name/actions" data-repo-nav--link>Actions</a></li>
-        <li><a href="/project/name/wiki" data-repo-nav--link>Wiki</a></li>
+        <li>
+          <a href="/project/name/actions" data-repo-nav--link>
+            <svg data-square-icon aria-hidden="true">
+              <use xlink:href="./octicons.svg#play"></use>
+            </svg>
+            <span> Actions </span>
+          </a>
+        </li>
+        <li>
+          <a href="/project/name/project" data-repo-nav--link>
+            <svg data-square-icon aria-hidden="true">
+              <use xlink:href="./octicons.svg#project"></use>
+            </svg>
+            <span>Project</span>
+          </a>
+        </li>
+        <li>
+          <a href="/project/name/settings" data-repo-nav--link>
+            <svg data-square-icon aria-hidden="true">
+              <use xlink:href="./octicons.svg#gear"></use>
+            </svg>
+            <span>Settings</span>
+          </a>
+        </li>
       </ul>
     </nav>
   </body>
