@@ -55,6 +55,7 @@ body {
   color: rgb(139, 148, 158);
 }
 
+/* https://stackoverflow.com/a/32570813 */
 [data-content]::before {
   content: attr(data-content);
   display: block;
