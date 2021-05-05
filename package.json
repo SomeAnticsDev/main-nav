@@ -1,0 +1,22 @@
+{
+  "name": "@someanticsdev/main-nav",
+  "version": "0.0.0",
+  "description": "A clone of GitHub's project navigation to illustrate accessible main nav patterns.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SomeAnticsDev/main-nav.git"
+  },
+  "author": "Michael Chan <mijoch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SomeAnticsDev/main-nav/issues"
+  },
+  "homepage": "https://github.com/SomeAnticsDev/main-nav#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
