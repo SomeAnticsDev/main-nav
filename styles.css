@@ -56,14 +56,14 @@ body {
 }
 
 /* https://stackoverflow.com/a/32570813 */
-[data-content]::before {
-  content: attr(data-content);
+[data-boldable-content]::before {
+  content: attr(data-boldable-content);
   display: block;
   font-weight: 600;
   height: 0;
   visibility: hidden;
 }
-[data-content] {
+[data-boldable-content] {
   text-align: center;
 }
 

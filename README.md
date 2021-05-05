@@ -19,3 +19,5 @@ A clone of GitHub's project navigation to illustrate accessible main nav pattern
 - "augmenter"
   - `.visually-hidden`
   - `aria-hidden`
+- `data-boldable-content`
+- differences in reading extended content between browsers
