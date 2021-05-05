@@ -55,6 +55,17 @@ body {
   color: rgb(139, 148, 158);
 }
 
+[data-content]::before {
+  content: attr(data-content);
+  display: block;
+  font-weight: 600;
+  height: 0;
+  visibility: hidden;
+}
+[data-content] {
+  text-align: center;
+}
+
 [data-repo-nav--link-augmenter] {
   display: inline-block;
   min-width: 1.25rem;
@@ -73,6 +84,9 @@ body {
   color: rgb(201, 209, 217);
   border-bottom: 2px solid rgb(249, 130, 108);
   font-weight: 600;
+}
+[data-repo-nav--link][aria-current="page"] [data-square-icon] {
+  color: rgb(201, 209, 217);
 }
 
 [data-visually-hidden] {
