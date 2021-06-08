@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="nav-styles.css">
+</head>
+
+<body>
+	<main>
+		<nav id="repository-nav" aria-label="Repository">
+			<ul aria-labelledby="repository-nav" data-main-nav--list>
+				<li>
+					<a href="#" aria-current="page" data-main-nav--link>
+						Code
+					</a>
+				</li>
+				<li>
+					<a href="#" data-main-nav--link aria-describedby="open-issues">
+						<span>
+							Issues
+						</span>
+						<span aria-hidden="true" data-main-nav--wormhole>
+							2
+						</span>
+					</a>
+					<span id="open-issues" hidden>
+						2 open issues
+					</span>
+				</li>
+				<li>
+					<a href="#" data-main-nav--link>
+						Pull Requests
+					</a>
+				</li>
+				<li>
+					<a href="#" data-main-nav--link>
+						Discussions
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</main>
+</body>
+
+</html>
